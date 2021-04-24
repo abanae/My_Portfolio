@@ -1,12 +1,12 @@
-/* Universal Selector */
+
 * {
   
   margin:0;
   padding:0;  
- ` /*box-sizing: border-box;*/
+ 
 }
 
-/* Element Selectors */
+
 body {
   position: relative;
   font-family: "Garamond", sans-serif;
@@ -27,6 +27,27 @@ main {
   padding: 60px 0;
 }
 
+figure{
+margin-bottom: 40px;
+}
+
+img {
+  display: block;
+  width: 300px;
+  height: 300px;
+  margin: 20px auto;
+  padding: 10px 10px;
+  background-color: #E8CEBF;
+  border: 10px dotted;
+  
+}
+
+section {
+  margin-bottom: 30px;
+  padding: 20px 10px 40px 10px;
+  border-top: 3px solid #46a8c0;
+  background-color:  #E8CEBF;
+}
 
 .column {
   width: 25%;
@@ -80,31 +101,8 @@ footer {
   color: #FDF8F5;    
 }
 
-figure {
-  margin-bottom: 40px;
-
-}
-
-img {
-  display: block;
-  width: 300px;
-  height: 300px;
-  margin: 20px auto;
-  padding: 10px 10px;
-  background-color: #E8CEBF;
-  border: 10px dotted;
-}
-
-section {
-  margin-bottom: 30px;
-  padding: 20px 10px 40px 10px;
-  border-top: 3px solid #46a8c0;
-  background-color:  #E8CEBF;
-}
-
-
 form {
-  /* Center the form on the page */
+  
   margin: 0 auto;
   width: 500px;
   padding: 10px;
@@ -136,7 +134,7 @@ button {
   color: #FDF8F5;
 }
  
-/* Class Selectors */
+
 .text-center {
   text-align: center;
 }
