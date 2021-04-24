@@ -3,6 +3,7 @@
   
   margin:0;
   padding:0;  
+ ` /*box-sizing: border-box;*/
 }
 
 /* Element Selectors */
@@ -26,6 +27,27 @@ main {
   padding: 60px 0;
 }
 
+
+.column {
+  width: 25%;
+  padding: 10px;
+  height: 300px;
+  border: 5px solid #46a8c0;
+  border-radius: 20px;
+}
+
+.row {
+  display: flex;
+  margin:0 auto;
+  width: auto;
+  padding: 10px;
+  height: 300px; 
+} 
+
+h3{
+  font-weight: bolder;
+  }
+  
 li {
   display: inline;
   padding: 20px;
@@ -65,18 +87,21 @@ figure {
 
 img {
   display: block;
+  width: 300px;
+  height: 300px;
   margin: 20px auto;
-  padding: 20px 10px 20px 10px;
+  padding: 10px 10px;
   background-color: #E8CEBF;
-border: 10px dotted;
+  border: 10px dotted;
 }
 
 section {
-  margin-bottom: 0;
+  margin-bottom: 30px;
   padding: 20px 10px 40px 10px;
   border-top: 3px solid #46a8c0;
   background-color:  #E8CEBF;
 }
+
 
 form {
   /* Center the form on the page */
