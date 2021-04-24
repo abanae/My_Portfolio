@@ -27,11 +27,12 @@ main {
   padding: 60px 0;
 }
 
-figure{
+figure {
 margin-bottom: 40px;
+
 }
 
-img {
+#portrait {
   display: block;
   width: 300px;
   height: 300px;
