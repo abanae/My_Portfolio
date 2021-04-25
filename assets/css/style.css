@@ -66,10 +66,12 @@ section {
   height: 300px; 
 } 
 
-h3{
+h3 {
   font-weight: bolder;
+ padding-top: 30px;
   }
   
+
 li {
   display: inline;
   padding: 20px;
@@ -121,13 +123,10 @@ textarea {
   box-sizing: border-box;
   width: 300px;
   border: 1px solid #4F4846;
+  vertical-align: top;
+  height: 30px;
 }
 
-textarea {
-  vertical-align: top;
-  height: 60px;
-}
-  
 button {
   height: 40px;
   width: 120px;
