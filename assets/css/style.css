@@ -1,6 +1,5 @@
 
 * {
-  
   margin:0;
   padding:0;  
  
@@ -8,12 +7,14 @@
 
 
 body {
+  width: 100%;
   position: relative;
   font-family: "Garamond", sans-serif;
   font-size: 20px;
   background-color: #E8CEBF;
   color: black;
 }
+
 
 h1,
 h2 {
@@ -24,7 +25,13 @@ font-family: Cambria,sans-serif;
 }
 
 main {
-  padding: 60px 0;
+padding: 60px 0;
+}
+
+.mybox{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
 
 figure {
@@ -44,6 +51,7 @@ margin-bottom: 40px;
 }
 
 section {
+  display: block;
   margin-bottom: 30px;
   padding: 20px 10px 40px 10px;
   border-top: 3px solid #46a8c0;
@@ -51,23 +59,23 @@ section {
 }
 
 .column {
-  width: 25%;
+  display: block;
   padding: 10px;
-  height: 300px;
   border: 5px solid #46a8c0;
   border-radius: 20px;
 }
 
 .row {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   margin:0 auto;
-  width: auto;
   padding: 10px;
-  height: 300px; 
+
 } 
 
 h3 {
-  font-weight: bolder;
+font-weight: bolder;
  padding-top: 30px;
   }
   
@@ -83,7 +91,7 @@ a {
   color: #FDF8F5;
 }
 
-header,
+
 footer {
   height: 60px;
   width: 100%;
@@ -92,12 +100,12 @@ footer {
 }
 
 header {
-  position: fixed;
+  width: 100%;
+  background-color: rgb(6, 73, 180);
   border-bottom: 10px solid #46a8c0;
 }
 
 footer {
-  position: absolute;
   margin-top: 0;
   bottom: 0;
   border-bottom: 10px solid #4F4846;
@@ -105,13 +113,13 @@ footer {
 }
 
 form {
-  
   margin: 0 auto;
-  width: 500px;
-  padding: 10px;
+  padding: 25px;
   border: 5px solid #46a8c0;
   border-radius: 20px;
+  max-width: 500px;
 }
+
 
 label {
   display: inline-block;
@@ -121,15 +129,16 @@ label {
 input, 
 textarea {
   box-sizing: border-box;
-  width: 300px;
+  max-width: 500px;
   border: 1px solid #4F4846;
   vertical-align: top;
-  height: 30px;
+  height: 40px;
+  
 }
 
 button {
   height: 40px;
-  width: 120px;
+  width: 50px;
   background-color: #4F4846;
   color: #FDF8F5;
 }
@@ -139,15 +148,44 @@ button {
   text-align: center;
 }
 
-
-
 .text-right {
   text-align: right;
 }
+
+nav {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+
+
+
 @media screen and (max-width: 768px) {
-  header,
-  nav,
-  .text-right {
+  nav ul {
+    display: flex;
     flex-direction: column;
+    
+  }
+  nav {
+    width: 100vw;
+   justify-content: center;
   }
 }
+
+form,
+input {
+width: 50vw;
+}
+
+button {
+width: 25vw;
+}
+
+label {
+ width: initial; 
+ }
+
+.row {
+  width: 45;
+}
+
