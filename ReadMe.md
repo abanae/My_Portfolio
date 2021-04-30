@@ -2,13 +2,25 @@
 
 ## Description:
  This portfolio provided a brief description about myself. Displaying my first attempt at creating a portfolio from scratch that is user friendly across multiple viewports. The script also provides a basic interactive experience. 
+
 ## HOW TO:
-name,recent photo,links to sections "About Me", "Projects", and how to "Contact Me".
+* Added a discriptive tittle. 
+* Added Alt Attributes to images. 
+* Added Semantic Elements.
+* Added Heading Attributes in Sequential Order. 
+* Added discriptive comments for elements.
+* Added section for recent portrait and previous work experience.
+* Links in the navigation scrolls to the corresponding section.
+* Added Pseudo elements to image.
+* Aded textarea tag to contact me.
+* Responsive layout that adapts to my viewport by using Media Queries and Flexbox
+
 
 ## Final Product:
-Viewport Responsive
+Responsive Viewport
 
 ![Responsive Viewport](https://media2.giphy.com/media/AlHHBxGE1V9TKVOKHV/giphy.gif)
+
 
 ### Deployed URL:
 [Ana Abad Portfolio](https://abanae.github.io/My_Portfolio/)
