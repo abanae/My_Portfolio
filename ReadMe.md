@@ -1,7 +1,7 @@
 # My first Portfolio
 
 ## Description:
-This Portfolio provides a breif discription about myself. Displaying my first attempt at creating a portfolio that is user firendly accross multiple platforms. This script also, provide a basic iterative experaiance. 
+ This portfolio provided a brief description about myself. Displaying my first attempt at creating a portfolio from scratch that is user friendly across multiple viewports. The script also provides a basic interactive experience. 
 ## HOW TO:
 name,recent photo,links to sections "About Me", "Projects", and how to "Contact Me".
 
