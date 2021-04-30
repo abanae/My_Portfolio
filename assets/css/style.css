@@ -81,6 +81,13 @@ section {
   
 }
 
+figcaption{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', sans-serif;
+  font-size: 25px;
+  font-weight: bolder;
+  margin-top: 50px;
+}
+
 /* Details Postfolio Selections */
 .column {
   display: block;
