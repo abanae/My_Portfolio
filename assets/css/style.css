@@ -1,10 +1,9 @@
-
+/* Universal Element Style */
 * {
   margin:0;
   padding:0;  
  
 }
-
 
 body {
   width: 100%;
@@ -15,7 +14,7 @@ body {
   color: black;
 }
 
-
+/* Commands Appliied to Single Elements */
 h1,
 h2 {
 margin: 20px;
@@ -24,8 +23,41 @@ font-weight: bolder;
 font-family: Cambria,sans-serif;
 }
 
+h3 {
+  font-weight: bolder;
+  padding-top: 30px;
+   }
+    
+  .text-center {
+   text-align: center;
+  }
+    
+  .text-right {
+  text-align: right;
+  }   
+/* Header */
+header {
+  width: 100%;
+  background-color: rgb(6, 73, 180);
+  border-bottom: 10px solid #46a8c0;
+}
+
+/* Navigator */
+nav {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
 main {
 padding: 60px 0;
+}
+
+section {
+  display: block;
+  margin-bottom: 30px;
+  padding: 20px 10px 40px 10px;
+  border-top: 3px solid #46a8c0;
+  background-color:  #E8CEBF;
 }
 
 .mybox{
@@ -34,11 +66,7 @@ padding: 60px 0;
   flex-direction: column;
 }
 
-figure {
-margin-bottom: 40px;
-
-}
-
+/* Main Figure */
 #portrait {
   display: block;
   width: 300px;
@@ -50,14 +78,7 @@ margin-bottom: 40px;
   
 }
 
-section {
-  display: block;
-  margin-bottom: 30px;
-  padding: 20px 10px 40px 10px;
-  border-top: 3px solid #46a8c0;
-  background-color:  #E8CEBF;
-}
-
+/* Details */
 .column {
   display: block;
   padding: 10px;
@@ -74,11 +95,6 @@ section {
 
 } 
 
-h3 {
-font-weight: bolder;
- padding-top: 30px;
-  }
-  
 
 li {
   display: inline;
@@ -91,27 +107,7 @@ a {
   color: #FDF8F5;
 }
 
-
-footer {
-  height: 60px;
-  width: 100%;
-  line-height: 60px;
-  background-color: rgb(6, 73, 180);
-}
-
-header {
-  width: 100%;
-  background-color: rgb(6, 73, 180);
-  border-bottom: 10px solid #46a8c0;
-}
-
-footer {
-  margin-top: 0;
-  bottom: 0;
-  border-bottom: 10px solid #4F4846;
-  color: #FDF8F5;    
-}
-
+/* Textarea */
 form {
   margin: 0 auto;
   padding: 25px;
@@ -142,24 +138,17 @@ button {
   background-color: #4F4846;
   color: #FDF8F5;
 }
- 
 
-.text-center {
-  text-align: center;
-}
-
-.text-right {
-  text-align: right;
-}
-
-nav {
-  display: flex;
-  flex-direction: row-reverse;
+/* Footer */
+footer {
+  height: 60px;
+  width: 100%;
+  line-height: 60px;
+  background-color: rgb(6, 73, 180);
 }
 
 
-
-
+/* Media Queries */
 @media screen and (max-width: 768px) {
   nav ul {
     display: flex;
