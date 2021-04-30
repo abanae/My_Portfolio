@@ -10,7 +10,8 @@ body {
   position: relative;
   font-family: "Garamond", sans-serif;
   font-size: 20px;
-  background-color: #E8CEBF;
+  /* background:linear-gradient( #EE7752, #e73c7e,#23A6D5, #23D5AB); */
+  /* background-color: #E8CEBF; */
   color: black;
 }
 
@@ -38,7 +39,7 @@ h3 {
 /* Header */
 header {
   width: 100%;
-  background-color: rgb(6, 73, 180);
+  /* background-color: rgb(6, 73, 180); */
   border-bottom: 10px solid #46a8c0;
 }
 
@@ -57,7 +58,7 @@ section {
   margin-bottom: 30px;
   padding: 20px 10px 40px 10px;
   border-top: 3px solid #46a8c0;
-  background-color:  #E8CEBF;
+  /* background-color:  #E8CEBF; */
 }
 
 .mybox{
@@ -73,12 +74,12 @@ section {
   height: 300px;
   margin: 20px auto;
   padding: 10px 10px;
-  background-color: #E8CEBF;
+  /* background-color: #E8CEBF; */
   border: 10px dotted;
   
 }
 
-/* Details */
+/* Details Postfolio Selections */
 .column {
   display: block;
   padding: 10px;
@@ -95,6 +96,11 @@ section {
 
 } 
 
+.column img:hover {
+  width: 400px;
+  height:400px;
+  cursor:grab;
+}
 
 li {
   display: inline;
@@ -144,7 +150,7 @@ footer {
   height: 60px;
   width: 100%;
   line-height: 60px;
-  background-color: rgb(6, 73, 180);
+  /* background-color: rgb(6, 73, 180); */
 }
 
 
