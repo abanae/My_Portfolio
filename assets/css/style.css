@@ -10,9 +10,8 @@ body {
   position: relative;
   font-family: "Garamond", sans-serif;
   font-size: 20px;
-  /* background:linear-gradient( #EE7752, #e73c7e,#23A6D5, #23D5AB); */
-  /* background-color: #E8CEBF; */
-  color: black;
+  background:linear-gradient( #3bc9e2, #3a3de9,#ed3af3, pink);
+  
 }
 
 /* Commands Appliied to Single Elements */
@@ -35,11 +34,15 @@ h3 {
     
   .text-right {
   text-align: right;
-  }   
+  }  
+  
+   a{
+    color: black;
+  }
+
 /* Header */
 header {
   width: 100%;
-  /* background-color: rgb(6, 73, 180); */
   border-bottom: 10px solid #46a8c0;
 }
 
@@ -58,7 +61,7 @@ section {
   margin-bottom: 30px;
   padding: 20px 10px 40px 10px;
   border-top: 3px solid #46a8c0;
-  /* background-color:  #E8CEBF; */
+  
 }
 
 .mybox{
@@ -74,7 +77,6 @@ section {
   height: 300px;
   margin: 20px auto;
   padding: 10px 10px;
-  /* background-color: #E8CEBF; */
   border: 10px dotted;
   
 }
@@ -97,8 +99,8 @@ section {
 } 
 
 .column img:hover {
-  width: 400px;
-  height:400px;
+  width: 250px;
+  height: 250px;
   cursor:grab;
 }
 
@@ -106,11 +108,6 @@ li {
   display: inline;
   padding: 20px;
   text-decoration: none;
-}
-
-a {
-  text-decoration: none;
-  color: #FDF8F5;
 }
 
 /* Textarea */
@@ -150,7 +147,6 @@ footer {
   height: 60px;
   width: 100%;
   line-height: 60px;
-  /* background-color: rgb(6, 73, 180); */
 }
 
 
