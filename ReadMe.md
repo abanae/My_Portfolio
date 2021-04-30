@@ -3,7 +3,7 @@
 ## Description:
  This portfolio provided a brief description about myself. Displaying my first attempt at creating a portfolio from scratch that is user friendly across multiple viewports. The script also provides a basic interactive experience. 
 
-## HOW TO:
+## How To:
 * Added a discriptive tittle. 
 * Added Alt Attributes to images. 
 * Added Semantic Elements.
