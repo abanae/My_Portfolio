@@ -1,9 +1,9 @@
-# My first Portfolio
+# My first Portfolio 💻
 
 ## Description:
  This portfolio provided a brief description about myself. Displaying my first attempt at creating a portfolio from scratch that is user friendly across multiple viewports. The script also provides a basic interactive experience. 
 
-## How To:
+## How To 📖:
 * Added a discriptive tittle. 
 * Added Alt Attributes to images. 
 * Added Semantic Elements.
@@ -22,5 +22,5 @@ Responsive Viewport
 ![Responsive Viewport](https://media2.giphy.com/media/AlHHBxGE1V9TKVOKHV/giphy.gif)
 
 
-### Deployed URL:
+### Deployed URL 🌐:
 [Ana Abad Portfolio](https://abanae.github.io/My_Portfolio/)
