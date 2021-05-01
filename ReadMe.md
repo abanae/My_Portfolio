@@ -4,7 +4,8 @@
  This portfolio provided a brief description about myself. Displaying my first attempt at creating a portfolio from scratch that is user friendly across multiple viewports. The script also provides a basic interactive experience. 
 
 ## How To 📖:
-* Added a discriptive tittle. 
+* Added a discriptive tittle.
+* Added a favicon. 
 * Added Alt Attributes to images. 
 * Added Semantic Elements.
 * Added Heading Attributes in Sequential Order. 
@@ -13,7 +14,7 @@
 * Links in the navigation scrolls to the corresponding section.
 * Added Pseudo elements to image.
 * Aded textarea tag to contact me.
-* Responsive layout that adapts to my viewport by using Media Queries and Flexbox
+* Responsive layout that adapts to my viewport by using Media Queries and Flexbox.
 
 
 ## Final Product:
