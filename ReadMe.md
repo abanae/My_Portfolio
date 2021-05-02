@@ -12,6 +12,7 @@
 * Added discriptive comments for elements.
 * Added section for recent portrait and previous work experience.
 * Links in the navigation scrolls to the corresponding section.
+* Section added for future projects with images.
 * Added Pseudo elements to image.
 * Aded textarea tag to contact me.
 * Responsive layout that adapts to my viewport by using Media Queries and Flexbox.
