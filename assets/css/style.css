@@ -23,6 +23,11 @@ p{
 }
 
 
+.tile img:hover {
+  width: 250px;
+  height: 250px;
+  cursor:grab;
+}
 
 /* Universal Element Style */
 /* * {
@@ -122,11 +127,7 @@ section {
 
 } 
 
-.column img:hover {
-  width: 250px;
-  height: 250px;
-  cursor:grab;
-}
+
 
 li {
   display: inline;
