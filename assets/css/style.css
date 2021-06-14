@@ -1,7 +1,10 @@
 #aboutMe{
-  margin: 99px 269px;
+  margin: 3% 30%;
 }
 
+#bio{
+  margin-top: -10%;
+}
 /* Universal Element Style */
 /* * {
   margin:0;
