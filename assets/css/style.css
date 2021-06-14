@@ -25,20 +25,14 @@ p{
 
 #imgProj{
   margin-left: 230px;
-  margin-bottom: 200px;
+  margin-bottom: 300px;
   margin-right: -210px;
 }
 
 #mainProj{
-  margin: 220px 220px;
+  margin: 220px 120px;
 }
 
-
-.tile img:hover {
-  width: 250px;
-  height: 250px;
-  cursor:grab;
-}
 
 
 #contact{
