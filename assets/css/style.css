@@ -13,6 +13,7 @@ body {
   margin-bottom: -1%;
 }
 
+section
 p{
   margin-left: 19%;
 }
@@ -20,6 +21,8 @@ p{
  #portrait {
   width: 20%;
 }
+
+
 
 /* Universal Element Style */
 /* * {
