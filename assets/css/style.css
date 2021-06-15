@@ -1,9 +1,10 @@
+/* Body Section */
 body {
   font-family: "Garamond", sans-serif;
   font-size: 17px;
 } 
 
-
+/* About Me Section */
 #aboutMe{
   margin: 3% 20%;
 }
@@ -22,7 +23,7 @@ p{
   width: 20%;
 }
 
-
+/* Project Section */
 #imgProj{
   margin-left: 230px;
   margin-bottom: 300px;
@@ -33,6 +34,7 @@ p{
   margin: 220px 120px;
 }
 
+/* List Of Projects */
 .section
 .image {
   animation: fadeIn 5s;
@@ -41,6 +43,8 @@ p{
   -o-animation: fadeIn 5s;
   -ms-animation: fadeIn 5s;
 }
+
+/* Bio Img FadeIn */
 @keyframes fadeIn {
   0% {opacity:0;}
   100% {opacity:1;}
@@ -66,7 +70,7 @@ p{
   100% {opacity:1;}
 }
 
-
+/* Contact Me Section */
 #contact{
   display: flex;
   justify-content:center;
@@ -77,14 +81,14 @@ p{
   font-size: xxx-large;
 }
 
-
-
 /* Footer */
 footer {
   height: 60px;
   width: 100%;
   line-height: 60px;
 }
+
+
 
 
 /* Media Queries */
@@ -106,3 +110,30 @@ footer {
   }
 }
 
+/* Mobile Media Queries */
+@media screen and (max-width:560px){
+  #portrait {
+   width: 150%;
+}
+#bio{
+margin-top: 10%;
+margin-left:15%;
+}
+
+ #imgProj {
+   margin-top:100px;
+  margin-bottom: -200px;
+}
+
+#mainProj{
+ margin:70px;
+ margin-left:130px;
+ margin-bottom:100px;
+ 
+}
+
+.section
+p{
+  margin:0px -120px;
+}
+}
