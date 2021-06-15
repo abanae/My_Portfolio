@@ -67,17 +67,10 @@ p{
 }
 
 
-/* .image{
-  opacity: 50%;
-} */
-
-/* .image:hover {
-  opacity:100%;
-  transition: opacity;
-} */
-/* #contact{
-  margin: 150px;
-} */
+#contact{
+  display: flex;
+  justify-content:center;
+}
 
  
 .icons{
@@ -85,149 +78,6 @@ p{
 }
 
 
-/* padding-right: 361px;
-    padding-left: 700px;
-    margin-bottom: 70px; */
-
-
-
-/* Universal Element Style */
-/* * {
-  margin:0;
-  padding:0;  
- 
-} */
-
-/* body {
-  width: 100%;
-  position: relative;
-  font-family: "Garamond", sans-serif;
-  font-size: 20px;
-  
-} */
-
-/* Commands Appliied to Single Elements */
-/* h1,
-h2 {
-margin: 20px;
-font-size: 30px;
-font-weight: bolder;
-font-family: Cambria,sans-serif;
-}
-
-h3 {
-  font-weight: bolder;
-  padding-top: 30px;
-   }
-    
-  .text-center {
-   text-align: center;
-  }
-    
-  .text-right {
-  text-align: right;
-  }  
-  
-   a{
-    color: black;
-  } */
-
-/* Header
-header {
-  width: 100%;
-  border-bottom: 10px solid #46a8c0;
-}
-
-/* Navigator */
-/* nav {
-  display: flex;
-  flex-direction: row-reverse;
-} */ */
-
-/* main {
-padding: 60px 0;
-}
-
-section {
-  display: block;
-  margin-bottom: 30px;
-  padding: 20px 10px 40px 10px;
-  border-top: 3px solid #46a8c0;
-  
-}
-
-.mybox{
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-} */
-
-/* Main Figure */
-
-
-/* figcaption{
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', sans-serif;
-  font-size: 25px;
-  font-weight: bold;
-  margin-top: 50px;
-} */ */
-
-/* Details Postfolio Selections */
-/* .column {
-  display: block;
-  padding: 10px;
-  border: 5px solid #46a8c0;
-  border-radius: 20px;
-}
-
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin:0 auto;
-  padding: 10px;
-
-} 
-
-
-
-li {
-  display: inline;
-  padding: 20px;
-  text-decoration: none;
-} */
-
-/* Textarea */
-/* form {
-  margin: 0 auto;
-  padding: 25px;
-  border: 5px solid #46a8c0;
-  border-radius: 20px;
-  max-width: 500px;
-}
-
-
-label {
-  display: inline-block;
-  width: 100px;
-}
-  
-input, 
-textarea {
-  box-sizing: border-box;
-  max-width: 500px;
-  border: 1px solid #4F4846;
-  vertical-align: top;
-  height: 40px;
-  
-}
-
-button {
-  height: 40px;
-  width: 50px;
-  background-color: #4F4846;
-  color: #FDF8F5;
-} */
 
 /* Footer */
 footer {
@@ -237,33 +87,3 @@ footer {
 }
 
 
-/* Media Queries */
-/* @media screen and (max-width: 768px) {
-  nav ul {
-    display: flex;
-    flex-direction: column;
-    
-  }
-  nav {
-    width: 100vw;
-   justify-content: center;
-  }
-}
-
-form,
-input {
-width: 50vw;
-}
-
-button {
-width: 25vw;
-}
-
-label {
- width: initial; 
- }
-
-.row {
-  width: 45;
-}
- */
