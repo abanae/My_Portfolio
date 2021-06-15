@@ -87,3 +87,22 @@ footer {
 }
 
 
+/* Media Queries */
+@media screen and (max-width: 700px) {
+  #imgProj {
+    margin-left:25px;
+    margin-right:68px;
+    margin-bottom: -350px;
+  
+  }
+  #mainProj{
+   margin-right:3px;
+   margin-left:300px;
+  }
+
+  .section
+  p{
+    margin-left:0;
+  }
+}
+
