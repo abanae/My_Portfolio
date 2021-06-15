@@ -136,4 +136,28 @@ margin-left:15%;
 p{
   margin:0px -120px;
 }
+
+}
+
+/* Mobile Media Queries */
+@media screen and (max-width:400px){
+  .section
+  p{
+    margin:0px -100px;
+    
+  }
+
+
+  #mainProj {
+    margin-top:125px;
+    min-width:65%;
+   
+  }
+
+#imgProj {
+ width:100%;
+margin-left:0px;
+}
+
+
 }
