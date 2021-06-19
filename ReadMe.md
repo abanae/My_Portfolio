@@ -25,6 +25,8 @@
 ## Previous Portfolio:
 ![Responsive Viewport](https://media2.giphy.com/media/AlHHBxGE1V9TKVOKHV/giphy.gif)
 
+## Improved Portfolio:
+![Responsive Viewport](https://media0.giphy.com/media/3Or8sit75izdt5lpyQ/giphy.gif)
 
 ### Deployed URL 🌐:
 New Portfolio [Click Here](https://abanae.github.io/My_Portfolio/)
